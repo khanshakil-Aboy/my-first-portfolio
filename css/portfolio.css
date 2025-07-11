@@ -209,3 +209,33 @@ font-size: 18px;
 .resume-btn{
     text-align: center;
 }
+/* footer section */
+.bg-footer{
+    background-color: #FFF8F3;
+    display: flex;
+    padding: 150px 200px;
+    gap: 100px;
+    justify-content: space-between;
+}
+.footer-colum{
+    width: 50%;
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.footer-description{
+    font-size: 13px;
+    color:#474747 ;
+    margin-bottom: 40px;
+}
+footer input[type="text"], input[type="email"], textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 30px;
+}
