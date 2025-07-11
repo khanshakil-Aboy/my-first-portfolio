@@ -103,6 +103,9 @@ main{
     margin-top: 150px;
     margin-bottom: 150px;
 }
+main section{
+    margin-top: 150px;
+}
 .about{
     
     
@@ -166,4 +169,43 @@ font-size: 18px;
 }
 .skills-padding{
     padding-top: 30px;
+}
+/* resume styels */
+.resume-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.resume-contain{
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+} 
+.collams-heading{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+}
+.collam-item{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.item-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.title-description{
+    font-weight: 600 ;
+    font-size: 20px;
+    color: #757575;
+    margin: 10px 0 20px 0;
+}
+.discription{
+    font-size: 16px;
+    color: #757575;
+}
+.resume-btn{
+    text-align: center;
 }
