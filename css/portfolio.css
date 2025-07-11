@@ -97,8 +97,8 @@ font-size: 20px;
 
 }
 /* about section */
-main section{
-    max-width: 1140px;
+main{
+    max-width: 1040px;
     margin: 0 auto;
     margin-top: 150px;
     margin-bottom: 150px;
