@@ -278,4 +278,16 @@ footer input[type="text"], input[type="email"], textarea{
     .btn{
         margin-left: 40%;
     }
+
+    .about{
+        padding: 20px;
+    }
+    .all-items{
+        flex-direction: column;
+        
+    }
+
+    .item{
+        margin-bottom: 30px;
+    }
 }
