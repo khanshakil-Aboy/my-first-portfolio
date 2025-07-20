@@ -265,4 +265,17 @@ footer input[type="text"], input[type="email"], textarea{
         flex-direction: column;
         padding: 20px;
     }
+    .bg-footer{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .footer-colum{
+        width: calc(100% - 5px);
+    }
+    footer input[type="text"], input[type="email"], textarea{
+        width: calc(100% - 40px);
+    }
+    .btn{
+        margin-left: 40%;
+    }
 }
