@@ -170,6 +170,8 @@ font-size: 18px;
 .skills-padding{
     padding-top: 30px;
 }
+
+
 /* resume styels */
 .resume-title{
     text-align: center;
@@ -238,4 +240,29 @@ footer input[type="text"], input[type="email"], textarea{
     border-radius: 5px;
     border: none;
     margin-bottom: 30px;
+}
+
+/* responsive */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+.work-skills{
+    flex-direction: column;
+}
+.skills{
+    width: 87%;
+}
+    
+}
+
+/* resume */
+
+@media screen and (max-width:576px) {
+    .resume-contain{
+        flex-direction: column;
+        padding: 20px;
+    }
 }
